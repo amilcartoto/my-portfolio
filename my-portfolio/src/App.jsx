@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import { useState } from 'react';
+import Navbar from '../components/Navbar';  
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import About from './pages/About';
+
+
 
 const HomePage = () => {
   const [section, setSection] = useState('about'); // Estado para cambiar entre secciones
