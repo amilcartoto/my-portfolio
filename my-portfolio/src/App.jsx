@@ -53,3 +53,27 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+// import { Routes, Route } from 'react-router-dom';
+// import HomePage from './pages/HomePage';
+// import Contact from './pages/Contact';
+// import Projects from './pages/Projects';
+// import About from './pages/About';
+// import Navbar from './components/Navbar';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<HomePage />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/projects" element={<Projects />} />
+//         <Route path="/contact" element={<Contact />} />
+//       </Routes>
+//     </div>
+//   );
+// };
+
+// export default App;
